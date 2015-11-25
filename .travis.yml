@@ -39,5 +39,4 @@ matrix:
     env: JRUBY_OPTS='--server -Xcompile.invokedynamic=false -Xcli.debug=true --debug'
   allow_failures:
     - rvm: ruby-head
-      env: RAILS_VERSION=master
   fast_finish: true
